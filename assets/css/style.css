@@ -45,21 +45,21 @@ img {
     border: 3px solid rgba(255, 255, 255, 0);
     border-radius: 25px;  
   } 
-img:hover, #mushroom:hover { 
+#mushroom:hover { 
     border: 3px solid red; 
     background-color: rgb(255, 131, 131);
   }
-img:hover, #flower:hover { 
+#flower:hover { 
     border: 3px solid green; 
     background-color: rgb(109, 158, 109);
 
   }
-img:hover, #feather:hover { 
+#feather:hover { 
     border: 3px solid rgb(185, 123, 8); 
     background-color: rgb(197, 169, 116);
 
   }
-img:hover, #star:hover { 
+#star:hover { 
     border: 3px solid gold; 
     background-color: rgb(255, 255, 187);
 

@@ -1,13 +1,11 @@
 var computerNumber = Math.floor(Math.random() * 51) + 50;
 var wins = 0;
 var losses= 0;
-var mushroomVal = Math.floor(Math.random() * 11) + 1;
-var flowerVal = Math.floor(Math.random() * 11) + 1;
-var featherVal = Math.floor(Math.random() * 11) + 1;
-var starVal = Math.floor(Math.random() * 11) + 1;
+var mushroomVal = Math.floor(Math.random() * 12) + 1;
+var flowerVal = Math.floor(Math.random() * 12) + 1;
+var featherVal = Math.floor(Math.random() * 12) + 1;
+var starVal = Math.floor(Math.random() * 12) + 1;
 var totalScore = 0;
-
-
 
 
 $(document).ready(function(){
@@ -34,15 +32,24 @@ $(document).ready(function(){
 
         if (totalScore === computerNumber) {
             wins++;
+            totalScore = 0;
+            computerNumber = Math.floor(Math.random() * 51) + 50;
             $(".wins").text(wins);
+            $(".total-score").text(totalScore);
+            $(".comp-numb").text(computerNumber);
                 var winner = document.getElementById("winner");
                 winner.play();
             $('.help').html("<p>Saved!</p>");
-
-
-        } else if (totalScore > computerNumber) {
+            // reset();
+        } 
+        
+        else if (totalScore > computerNumber) {
             losses++;
+            totalScore = 0;
+            computerNumber = Math.floor(Math.random() * 51) + 50;
             $(".losses").text(losses);
+            $(".total-score").text(totalScore);
+            $(".comp-numb").text(computerNumber);
                 var loser = document.getElementById("loser");
                 loser.play();
             $('.help').html("<p>Trapped!</p>");
@@ -52,8 +59,9 @@ $(document).ready(function(){
         
     });
 
-
-
+// var reset = function () {
+//     totalScore = 0;
+//     computerNumber =;
 
 
 $(".comp-numb").text(computerNumber);
