@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Super_Mario_Brosimport;
+    src:url("../../Super_Mario_Bros.ttf")
+}
+
+p {
+    font-family: Super_Mario_Brosimport;
+    color: white;
+}
+
+p .head{
+    font-size: 50px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.front {
+    font-size: 40px;
+    
+}
+
+#title-div {
+    margin-left: 13%;
+}
+
+p .cola {
+    color: rgb(238, 27, 27);
+}
+p .colb {
+    color: rgb(81, 199, 199);
+}
+p .colc {
+    color: gold;
+}
+p .cold {
+    color: rgb(81, 199, 199);
+}
+p .cole {
+    color: rgb(4, 165, 4);
+}
+
+img { 
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 25px;  
+  } 
+img:hover, #mushroom:hover { 
+    border: 3px solid red; 
+    background-color: rgb(255, 131, 131);
+  }
+img:hover, #flower:hover { 
+    border: 3px solid green; 
+    background-color: rgb(109, 158, 109);
+
+  }
+img:hover, #feather:hover { 
+    border: 3px solid rgb(185, 123, 8); 
+    background-color: rgb(197, 169, 116);
+
+  }
+img:hover, #star:hover { 
+    border: 3px solid gold; 
+    background-color: rgb(255, 255, 187);
+
+  }
+
+
+body {
+    background: url(../images/mario_background.jpg); 
+    background-size: 100% 750px; 
+    background-repeat: no-repeat;
+}
+
+.instructions p {
+    font-family: 'Barlow Semi Condensed', Arial, Helvetica, sans-serif;
+    max-width: 580px;
+    background-color: rgb(161, 161, 161);
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-left: 15.5%;
+    text-align: justify;
+}
+
+.container {
+    background-color: black;
+    max-width: 200px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-top: -338px;
+    height: 307px;
+}
+
+.powers {
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+#mushroom {
+    width: 150px;
+    height: 150px;
+}
+
+#flower {
+    width: 150px;
+    height: 150px;
+}
+
+#feather {
+    width: 150px;
+    height: 150px;
+}
+
+#star {
+    width: 150px;
+    height: 150px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container .cola {
+    color: rgb(81, 199, 199);
+}
+.container .colb {
+    color: gold;
+}
+.container .colc {
+    color: rgb(4, 165, 4);
+}
+.container .cold {
+    color: rgb(238, 27, 27);
+}
