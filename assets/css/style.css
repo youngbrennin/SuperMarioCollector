@@ -93,6 +93,17 @@ body {
     height: 307px;
 }
 
+.container2 {
+    background-color: black;
+    max-width: 200px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-top: -322px;
+    margin-left: 880px;
+    height: 307px;
+}
+
 .powers {
     margin-left: 15%;
     margin-top: 10px;
@@ -135,4 +146,18 @@ body {
 }
 .container .cold {
     color: rgb(238, 27, 27);
+}
+
+.help {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(252, 120, 164);
+    margin-top: -1px;
+
+}
+
+.help p {
+    margin-top: 2px;
+    color: rgb(252, 120, 164);
+    text-align: center;
 }

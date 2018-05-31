@@ -37,6 +37,7 @@ $(document).ready(function(){
             $(".wins").text(wins);
                 var winner = document.getElementById("winner");
                 winner.play();
+            $('.help').html("<p>Saved!</p>");
 
 
         } else if (totalScore > computerNumber) {
@@ -44,6 +45,7 @@ $(document).ready(function(){
             $(".losses").text(losses);
                 var loser = document.getElementById("loser");
                 loser.play();
+            $('.help').html("<p>Trapped!</p>");
         }
 
         $(".total-score").text(totalScore);
