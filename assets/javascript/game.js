@@ -34,6 +34,10 @@ $(document).ready(function(){
             wins++;
             totalScore = 0;
             computerNumber = Math.floor(Math.random() * 51) + 50;
+            mushroomVal = Math.floor(Math.random() * 12) + 1;
+            flowerVal = Math.floor(Math.random() * 12) + 1;
+            featherVal = Math.floor(Math.random() * 12) + 1;
+            starVal = Math.floor(Math.random() * 12) + 1;
             $(".wins").text(wins);
             $(".total-score").text(totalScore);
             $(".comp-numb").text(computerNumber);
@@ -47,6 +51,10 @@ $(document).ready(function(){
             losses++;
             totalScore = 0;
             computerNumber = Math.floor(Math.random() * 51) + 50;
+            mushroomVal = Math.floor(Math.random() * 12) + 1;
+            flowerVal = Math.floor(Math.random() * 12) + 1;
+            featherVal = Math.floor(Math.random() * 12) + 1;
+            starVal = Math.floor(Math.random() * 12) + 1;
             $(".losses").text(losses);
             $(".total-score").text(totalScore);
             $(".comp-numb").text(computerNumber);
