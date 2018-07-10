@@ -2,4 +2,4 @@
 my version of crystal collector
 
 
-https://youngbrennin.github.io/unit-4-game/
+https://youngbrennin.github.io/SuperMarioCollector/
